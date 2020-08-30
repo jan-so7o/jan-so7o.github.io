@@ -36,6 +36,16 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
+{#each posts as post}
+  <article>
+    <!-- link article to /posts/$permalink -->   
+    <a href={`/posts/${post.permalink}`}>
+      <h2>{post.title}</h2>
+      <p>{post.summary}</p>
+    </a>
+  </article>
+{/each}
+
 <h1>Great success!</h1>
 
 <figure>
@@ -44,3 +54,7 @@
 </figure>
 
 <p><strong>Powered By GITHUB, TRAVIS-CI, &amp; SAPPER/SVELTE</strong></p>
+
+<script>
+	  import {posts} from '../posts'
+</script>
