@@ -1,7 +1,5 @@
 import all from '../posts/*.md'
 
-export const posts = all
-
 export const posts = _.chain(all) // begin a chain
                       .map(transform) // transform the shape of each post
                       .orderBy('date', 'desc') // sort by date descending
