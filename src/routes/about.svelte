@@ -1,7 +1,7 @@
 <svelte:head>
-	<title>About</title>
+	<title>About Jan Solo</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>About Jan Solo</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>Move along, nothing to see here.</p>
