@@ -9,7 +9,8 @@ install:
   - npm install
   - npm install cypress
 script:
-  - npx sapper export
+  - npm run export
+  - npm run cname
 deploy:
   provider: pages
   skip_cleanup: true
