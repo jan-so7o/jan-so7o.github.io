@@ -1,6 +1,5 @@
 <style>
 	h1, figure, p {
-		text-align: center;
 		margin: 0 auto;
 	}
 
@@ -22,7 +21,13 @@
 	}
 
 	p {
-		margin: 1em auto;
+		margin: 1em;
+	}
+
+	article {
+		padding: 10px;
+		margin: 10px;
+		border: 1px solid #f7f7f7;
 	}
 
 	@media (min-width: 480px) {
@@ -30,30 +35,20 @@
 			font-size: 4em;
 		}
 	}
+
+
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>#ITME Jan Solo!</title>
 </svelte:head>
 
 {#each posts as post}
   <article>
-    <!-- link article to /posts/$permalink -->   
-    <a href={`/posts/${post.permalink}`}>
-      <h2>{post.title}</h2>
-      <p>{post.summary}</p>
-    </a>
+    <h2><a href={`/posts/${post.permalink}`}>{post.title}</a></h2>
+    <p>{post.summary}</p>
   </article>
 {/each}
-
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Powered By GITHUB, TRAVIS-CI, &amp; SAPPER/SVELTE</strong></p>
 
 <script>
 	  import {posts} from '../posts'
