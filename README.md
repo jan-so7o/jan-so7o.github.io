@@ -2,7 +2,7 @@
 
 https://itme.jansolo.dev
 
-## Stack is based on, and powered by:
+## Stack is based on and powered by:
 
 - Git
 - [Sapper](https://github.com/sveltejs/sapper)
