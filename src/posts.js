@@ -1,3 +1,4 @@
+import _ from 'lodash'
 import all from '../posts/*.md'
 
 export const posts = _.chain(all) // begin a chain
