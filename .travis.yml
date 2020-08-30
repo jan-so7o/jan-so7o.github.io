@@ -17,5 +17,3 @@ deploy:
   keep_history: true
   local_dir: __sapper__/export
   target_branch: master
-  #on:
-  #  branch: master
