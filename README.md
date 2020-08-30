@@ -14,6 +14,6 @@ https://itme.jansolo.dev
 
 ## How does it work?
 
-- On branch *dev* updates, Travis-CI runs `$> npm run export_` and set the ___sapper__/export_ as the *master* branch
+- On branch *dev* updates, Travis-CI runs `$> npm run export_` and set the ___sapper__/export as the *master* branch
 - all _/posts/*.md_ files translates to  https://itme.jansolo.dev/posts/file-name
 
