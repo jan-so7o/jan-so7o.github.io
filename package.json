@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "JanSoloBlogStack",
+  "description": "Blog stack powered by ghpages, sapper+markdown, and travis-ci.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
