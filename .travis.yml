@@ -10,7 +10,7 @@ install:
   - npm install cypress
 script:
   - npm run export
-  - npm run cname
+  #- npm run cname
 deploy:
   provider: pages
   skip_cleanup: true
