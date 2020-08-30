@@ -1,7 +1,7 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "ItMeJanSolo",
+  "description": "Jan Solo's Blog Stack. This is the actual blog, DO NOT clone this. Use the dev branch.",
+  "version": "0.0.2",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",

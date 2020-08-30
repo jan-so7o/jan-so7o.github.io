@@ -19,4 +19,4 @@ deploy:
   local_dir: __sapper__/export
   target_branch: master
   on:
-    branch: dev
+    branch: the-blog
