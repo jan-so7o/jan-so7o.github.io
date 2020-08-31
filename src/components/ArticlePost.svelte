@@ -65,7 +65,12 @@
         color:#333;
         text-decoration: none;
     }
-    
+    .summary-img {
+      width: 100%;
+      max-width: 800px;  
+      display:block; 
+      height: auto;
+    }
     </style>
 <article class="post">
 	<header class="post-header">
@@ -85,6 +90,9 @@
 	</header>
 
 	<div class="post-description">
+    {#if post.summaryImg}
+    <p><img src="{post.summaryImg}" class="summary-img" alt="{post.summaryImgAlt || post.summaryImg}" /></p>
+    {/if}
 		<p>
 			{post.summary}
 		</p>

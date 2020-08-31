@@ -1,6 +1,7 @@
 ---
 title: Sapper's Default Index Page
 summary: Sapper's default index page converted to post for legacy.
+summaryImg: successkid.jpg
 date: 2020-08-31 00:00
 tags:
   - init
