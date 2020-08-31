@@ -16,7 +16,7 @@ function transform({filename, html, metadata}) {
   const permalink = filename.replace(/\.md$/, '');
 
   // convert date string into a proper `Date`
-  const date = new Date(metadata.date);
+  var date = new Date(metadata.date);
 
   const datestr = date.toISOString().split('T')[0];
   // return the new shape
