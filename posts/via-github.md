@@ -8,6 +8,11 @@ tags:
   - mobile
 ---
 
-I am using GitHub's site to send this post. To make it worse, I am on using Firefox on my mobile phone to do this.
+I am using GitHub's site to send this post. 
+To make it worse, I am using Firefox on my mobile phone to do this.
 
 This post will be update to include a screenshot.
+
+Updated to include a summary image, and adding the image below.
+
+<img src="A2B774DA-9216-4E2B-B8CD-F25309CC09B6.jpeg" alt="screenshot">
