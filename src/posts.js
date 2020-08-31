@@ -19,7 +19,7 @@ function transform({filename, html, metadata}) {
   const date = new Date(metadata.date)
   //const opt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
 
-  const datestr = date.toLocaleDateString("en-US")
+  const datestr = (date.toLocaleDateString) ? date.toLocaleDateString("en-US") : metadata.date
   // return the new shape
   return {...metadata, filename, html, permalink, date, datestr}
 }
