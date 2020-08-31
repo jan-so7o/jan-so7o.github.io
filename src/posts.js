@@ -13,13 +13,12 @@ function transform({filename, html, metadata}) {
   if(metadata.isDraft) return null;
 
   // the permalink is the filename with the '.md' ending removed
-  const permalink = filename.replace(/\.md$/, '')
+  const permalink = filename.replace(/\.md$/, '');
 
   // convert date string into a proper `Date`
-  const date = new Date(metadata.date)
-  //const opt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+  const date = new Date(metadata.date);
 
-  const datestr = (date.toLocaleDateString) ? date.toLocaleDateString("en-US") : metadata.date
+  const datestr = date.toISOString().split('T')[0];
   // return the new shape
   return {...metadata, filename, html, permalink, date, datestr}
 }
