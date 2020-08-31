@@ -10,14 +10,13 @@
       // return a list of props
       return { post }
     }
-  </script>
-  
-  <script>
-    // this prop is filled from the result of the `preload()`
-    export let post
-  </script>
-  
-  <!-- display the post -->
-  <h1>{post.title}</h1>
-  
-  {@html post.html}
+</script>
+
+<script>
+    import ArticlePage from '../../components/ArticlePage.svelte';
+  // this prop is filled from the result of the `preload()`
+  export let post;
+</script>
+
+<!-- display the post -->
+<ArticlePage {post} />

@@ -1,7 +1,12 @@
 ---
 title: Sapper's Default Index Page
 summary: Sapper's default index page converted to post for legacy.
-date: 2020-08-31
+date: 2020-08-31 00:00
+tags:
+  - init
+  - helloworld
+  - sapper
+  - svelte
 ---
 <style>
     figure {
