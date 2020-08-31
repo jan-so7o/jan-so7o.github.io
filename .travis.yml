@@ -20,3 +20,9 @@ deploy:
   target_branch: master
   on:
     branch: the-blog
+branches:
+  except:
+  - dev
+  only:
+  - the-blog
+
