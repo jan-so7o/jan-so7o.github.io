@@ -31,7 +31,7 @@ h3 {
 .header {
     text-align: center;
     top: auto;
-    margin: 3em auto;
+    margin: 1em auto .5em;
 }
 
 .sidebar {
@@ -50,6 +50,7 @@ h3 {
 .brand-tagline {
     font-weight: 200;
     color: rgb(176, 202, 219);
+    font-size: 0.8em;
 }
 
 .nav-list {
@@ -115,7 +116,9 @@ h3 {
         margin: 80% 2em 0;
         text-align: right;
     }
-
+    .brand-tagline {
+        font-size: 1.1em;
+    }
     .sidebar {
         position: fixed;
         top: 0;
@@ -126,6 +129,8 @@ h3 {
         text-align: center;
     }
 }
+
+
 
 </style>
 
