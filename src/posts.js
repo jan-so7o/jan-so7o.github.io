@@ -7,18 +7,36 @@ export const posts = _.chain(all) // begin a chain
                       .orderBy('date', 'desc') // sort by date descending
                       .value() // convert chain back to array
 
+function date2str(x, y) {
+  var x = new Date(x);
+  var z = {
+      M: x.getMonth() + 1,
+      d: x.getDate(),
+      h: x.getHours(),
+      m: x.getMinutes(),
+      s: x.getSeconds()
+  };
+  y = y.replace(/(M+|d+|h+|m+|s+)/g, function(v) {
+    return ((v.length > 1 ? "0" : "") + z[v.slice(-1)]).slice(-2);
+  });
+
+  return y.replace(/(y+)/g, function(v) {
+      return x.getFullYear().toString().slice(-v.length)
+  });
+}
 // function for reshaping each post
 function transform({filename, html, metadata}) {
 
   if(metadata.isDraft) return null;
 
   // the permalink is the filename with the '.md' ending removed
-  const permalink = filename.replace(/\.md$/, '');
+  const permalink = filename.replace(/\.md$/, '')
 
   // convert date string into a proper `Date`
-  var date = new Date(metadata.date);
+  const date = new Date(metadata.date)
+  //const opt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
 
-  const datestr = date.toISOString().split('T')[0];
+  const datestr = date2str(metadata.date, 'yyyy-MM-dd');
   // return the new shape
   return {...metadata, filename, html, permalink, date, datestr}
 }
