@@ -7,7 +7,7 @@ https://itme.jansolo.dev
 - Git
 - [Sapper](https://github.com/sveltejs/sapper)
 - Markdown Blog posts for Sapper by [joshnuss](https://github.com/joshnuss/sapper-template) - https://dev.to/joshnuss/create-a-blog-with-markdown-sapper-50ad
-- Travis-CI (see .travis.yml)
+- Travis-CI (rename `._travis.yml` to `.travis.yml`)
 - [Github Pages](https://pages.github.com/) / github.io 
 
     - master branch is [jan-so7o.github.io](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) / https://itme.jansolo.dev
