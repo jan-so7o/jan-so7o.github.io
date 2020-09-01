@@ -1,7 +1,7 @@
 ---
 title: A test post via Github
 summary: Creating a new post using github.com site while on mobile. Browser is Firefox.
-date: 2020-09-01 03:13
+date: 2020/09/01 03:13
 summaryImg: A2B774DA-9216-4E2B-B8CD-F25309CC09B6.jpeg
 tags:
   - init
