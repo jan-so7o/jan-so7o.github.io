@@ -15,4 +15,4 @@ This post will be update to include a screenshot.
 
 Updated to include a summary image, and adding the image below.
 
-<img style="width:100%" src="A2B774DA-9216-4E2B-B8CD-F25309CC09B6.jpeg" alt="screenshot">
+<img class=" max-400 " src="A2B774DA-9216-4E2B-B8CD-F25309CC09B6.jpeg" alt="screenshot">

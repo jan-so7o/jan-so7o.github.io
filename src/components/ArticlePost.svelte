@@ -67,7 +67,7 @@
     }
     .summary-img {
       width: 100%;
-      max-width: 800px;  
+      max-width: 500px;  
       display:block; 
       height: auto;
     }

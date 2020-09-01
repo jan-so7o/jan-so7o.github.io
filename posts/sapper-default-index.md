@@ -9,25 +9,11 @@ tags:
   - sapper
   - svelte
 ---
-<style>
-    figure {
-		margin: 0 0 1em 0;
-	}
 
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em;
-	}
-</style>
 <h1>Great success!</h1>
 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
+	<img alt='Success Kid' src='successkid.jpg' class="">
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 

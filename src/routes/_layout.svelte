@@ -1,3 +1,4 @@
+
 <style>
 	* {
     -webkit-box-sizing: border-box;
@@ -141,7 +142,7 @@ h3 {
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
             <h1 class="brand-title">Jan Solo</h1>
-            <h2 class="brand-tagline">Technology musings and tinkering.</h2>
+            <h2 class="brand-tagline">Tech musings and tinkering.</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
@@ -157,7 +158,7 @@ h3 {
     </div>
 
     <div class="content pure-u-1 pure-u-md-3-4">
-        <div>
+        <div style="max-width: 720px;">
 
 			<main>
 				<slot></slot>
