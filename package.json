@@ -1,6 +1,6 @@
 {
-  "name": "ItMeJanSolo",
-  "description": "Jan Solo's Blog Stack. This is the actual blog, DO NOT clone this. Use the dev branch.",
+  "name": "JanSoloBlogStack",
+  "description": "Blog stack powered by ghpages, sapper+markdown, and travis-ci.",
   "version": "0.0.2",
   "scripts": {
     "dev": "sapper dev",
