@@ -4,7 +4,6 @@ summary: Posted the actual README. Remove accordingly.
 date: 2020/09/01 00:01
 tags:
   - init
-  - helloworld
 ---
 
 # Jan Solo's Blog Stack
