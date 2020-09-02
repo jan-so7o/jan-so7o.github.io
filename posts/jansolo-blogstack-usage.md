@@ -1,9 +1,18 @@
+---
+title: BlogStack Usage/Readme
+summary: Posted the actual README. Remove accordingly.
+date: 2020/09/01 00:01
+tags:
+  - init
+  - helloworld
+---
+
 # Jan Solo's Blog Stack
 
 - a blog template powered by Sapper/Svelte & Markdown
 - Together with GithubPages and Travis-CI, your very own Live Blog!
 
-working live sample: https://itme.jansolo.dev  (GithubPages + CNAME)
+working live sample: https://itme.jansolo.dev (GithubPages + CNAME)
 
 ## Files
 

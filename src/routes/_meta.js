@@ -1,5 +1,5 @@
 export default {
     blogTitle: "Blog Title",
-    blogTagline: "Buy now pay later",
+    blogTagline: "Blog now, push later.",
     headTitle: "My Blog"
 }
