@@ -17,4 +17,5 @@ tags:
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
+<p>Sapper Docs are still <a href="/sapper">here</a>!</p>
 <p><strong>Powered By GITHUB, TRAVIS-CI, &amp; SAPPER/SVELTE</strong></p>
