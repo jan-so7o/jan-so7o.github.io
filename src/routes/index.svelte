@@ -1,7 +1,7 @@
 
 
 <svelte:head>
-	<title>#ITME Jan Solo!</title>
+	<title>{meta.headTitle || meta.blogTitle}</title>
 </svelte:head>
 
 {#each posts as post}
@@ -12,5 +12,6 @@
 
 <script>
   import ArticlePost from '../components/ArticlePost.svelte';
-  import {posts} from '../posts'
+  import {posts} from '../posts';
+  import meta from './_meta.js';
 </script>

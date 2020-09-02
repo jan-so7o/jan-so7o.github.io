@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About Jan Solo</title>
+	<title>About {meta.blogTitle}</title>
 </svelte:head>
 <style>
 
@@ -12,7 +12,7 @@ h4 {
 
 <div class="page">
   <header>
-    <h1 class="title">About Jan Solo</h1>
+    <h1 class="title">About {meta.blogTitle}</h1>
   </header>
   <div class="content">
     <p>Move along, nothing to see here. <em>(yet)</em></p>
@@ -23,3 +23,6 @@ h4 {
     </p>  
   </div>
 </div>
+<script>
+  import meta from './_meta.js';
+</script>

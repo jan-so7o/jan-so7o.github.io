@@ -13,10 +13,14 @@
 </script>
 
 <script>
-    import ArticlePage from '../../components/ArticlePage.svelte';
+  import meta from '../_meta.js';
+  import ArticlePage from '../../components/ArticlePage.svelte';
   // this prop is filled from the result of the `preload()`
   export let post;
 </script>
 
+<svelte:head>
+	<title>{meta.headTitle || meta.blogTitle}: {post.title}</title>
+</svelte:head>
 <!-- display the post -->
 <ArticlePage {post} />

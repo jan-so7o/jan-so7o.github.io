@@ -141,8 +141,8 @@ h3 {
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">Jan Solo</h1>
-            <h2 class="brand-tagline">Tech musings and tinkering.</h2>
+            <h1 class="brand-title">{meta.blogTitle}</h1>
+            <h2 class="brand-tagline">{meta.blogTagline}</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
@@ -176,3 +176,6 @@ h3 {
         </div>
     </div>
 </div>
+<script>
+  import meta from './_meta.js';
+</script>
