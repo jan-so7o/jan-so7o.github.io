@@ -1,5 +1,5 @@
 {
-  "name": "JanSoloBlogStack",
+  "name": "jansolo-blogstack",
   "description": "Blog stack powered by ghpages, sapper+markdown, and travis-ci.",
   "version": "0.0.2",
   "scripts": {
