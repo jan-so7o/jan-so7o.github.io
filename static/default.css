@@ -1,0 +1,43 @@
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img.max-300 {
+  max-width: 300px !important;
+ }   
+img.max-400 {
+  max-width: 400px !important;
+}
+img.max-500 {
+  max-width: 500px !important;
+}
+img.max-600 {
+  max-width: 600px !important;
+}
+.post-description img {
+  width: 100%;
+  max-width: 600px;  
+  display:block; 
+  height: auto;
+}
+.page header {
+    padding-bottom: 1.6em;
+}
+.page .title {
+  font-size: 2.4em;
+  font-weight: 400;
+  color: #222;
+  margin-bottom: 0.2em;
+}
+.page .meta {
+  color: #999;
+  font-size: 90%;
+  margin: 0;
+}
+.page .content {
+  font-family: Georgia, "Cambria", serif;
+  color: #444;
+  line-height: 1.8em;
+}

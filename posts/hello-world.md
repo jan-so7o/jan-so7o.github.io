@@ -1,7 +1,10 @@
 ---
 title: Obligatory Hello World
 summary: The first actual blog post
-date: 2020-08-31
+date: 2020/08/31 00:01
+tags:
+  - init
+  - helloworld
 ---
 
 - this
